@@ -2,63 +2,122 @@ article {
     display: grid;
     grid-template-areas: 
       "header header"
-      "image nav"
-      ". row1"
-      ". row2"
-      ". row3"
-      ". row4"
-      ". row5"
-      ". row6"
-      ". row7"
+      "image     nav"
+      "image    row1"
+      "image    row2"
+      "contact    row3"
+      "contact    row4"
+      "contact  row5"
+      "contact  row6"
       "footer footer";
-    grid-template-rows: 60px  (1/7)fr (1/7)fr (1/7)fr (1/7)fr (1/7)fr (1/7)fr (1/7)fr 60px;
+    grid-template-rows: 2px (1/7)fr (1/7)fr (1/7)fr (1/7)fr (1/7)fr (1/7)fr (1/7)fr 60px;
     grid-template-columns: 20% 1fr;
-    grid-gap: 10px;
+    grid-gap: 0px;
     height: 100vh;
-    margin: 0;
+    margin: 0px;
     }
 header, footer{
-    padding: 20px;
     text-align: center;
     color: white;
     background:  #060d35;
 }
 img{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 253px;
     grid-area: image;
+    background:  #060d35;
+}
+img{
+    height: 300px;
+    width: 253px;
+    grid-area: image;
+    background:  #060d35;
+}
+img{
+    height: 300px;
+    width: 253px;
+    grid-area: image;
+    background:  #060d35;
+}
+img.personal{
+    height: 300px;
+    width: 253px;
+    grid-area: image;
+    background:  #060d35;
 }
 
 header {
-  grid-area: header;
+    grid-area: header;
 }
 
+body {
+    font-family: 'Lato', helvetica, arial, sans-serif;
+    font-size: 16px; color: #222;}
+
+nav { 
+    padding-top: 10px;
+    padding-left: 10px;
+    grid-area: nav;
+}
 footer {
     grid-area: footer;
 }
 
-.row1 { 
-  grid-area: row1;      
-  }
-.row2 { 
-  grid-area: row2;      
-  }
-.row3 { 
-  grid-area: row3;      
-  }
-.row4 { 
-  grid-area: row4;      
-  }
-.row5 { 
-  grid-area: row5;      
-  }
-.row6 { 
-  grid-area: row6;      
-  }
-.row7 { 
-  grid-area: row7;      
-  }
-
-nav { 
-  grid-area: nav;
+.info { 
+    grid-area: row1;      
 }
+.career { 
+    grid-area: row2;      
+}
+.eduation { 
+    grid-area: row3;      
+}
+.work { 
+    grid-area: row4;      
+}
+.skills { 
+    grid-area: row5;      
+}
+.hobbies { 
+    grid-area: row6;      
+}
+.contact { 
+    grid-area: contact;
+    color: white;
+    background:  #060d35;
+}
+section{
+    padding: 10px;
+}
+
+li{
+    margin: 2px;
+    padding: 1px;
+}
+li>a{
+    color: white;
+}
+h1 {font-size : 28px;}
+a { color: #990003 }
+p>a{
+    text-decoration: none;
+    font-weight: bold;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 1px;
+    text-align: center;
+ }
+ th{
+    color: white;
+    background:  #060d35;
+ }
+
+ td{
+   color: black;
+ }
+ h2,h3{
+     color: white;
+     text-align: center;
+     background-color: #060d35;
+ }
