@@ -1,10 +1,13 @@
-article { 
+* {
+    font-family: 'Lato', sans-serif;
+}
+article {
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
       "header header"
       "image     nav"
       "image    row1"
-      "image    row2"
+      "contact    row2"
       "contact    row3"
       "contact    row4"
       "contact  row5"
@@ -19,43 +22,24 @@ article {
 header, footer{
     text-align: center;
     color: white;
-    background:  #060d35;
+    background:  #009688;
 }
 img{
-    height: 300px;
-    width: 253px;
+    height: auto;
+    width: 100%;
     grid-area: image;
-    background:  #060d35;
+    background:  #009688;
 }
-img{
-    height: 300px;
-    width: 253px;
-    grid-area: image;
-    background:  #060d35;
-}
-img{
-    height: 300px;
-    width: 253px;
-    grid-area: image;
-    background:  #060d35;
-}
-img.personal{
-    height: 300px;
-    width: 253px;
-    grid-area: image;
-    background:  #060d35;
-}
-
 header {
     grid-area: header;
 }
 
 body {
     font-family: 'Lato', helvetica, arial, sans-serif;
-    font-size: 16px; color: #222;}
+    font-size: 14px;
+     color: #222;}
 
-nav { 
-    padding-top: 10px;
+nav {
     padding-left: 10px;
     grid-area: nav;
 }
@@ -63,28 +47,29 @@ footer {
     grid-area: footer;
 }
 
-.info { 
-    grid-area: row1;      
+.info {
+    grid-area: row1;
 }
-.career { 
-    grid-area: row2;      
+.career {
+    grid-area: row2;
 }
-.eduation { 
-    grid-area: row3;      
+.eduation {
+    grid-area: row3;
 }
-.work { 
-    grid-area: row4;      
+.work {
+    grid-area: row4;
 }
-.skills { 
-    grid-area: row5;      
+.skills {
+    grid-area: row5;
 }
-.hobbies { 
-    grid-area: row6;      
+.hobbies {
+    grid-area: row6;
 }
-.contact { 
+.contact {
     grid-area: contact;
     color: white;
-    background:  #060d35;
+    margin-top: 1px;
+    background:  #009688;
 }
 section{
     padding: 10px;
@@ -104,13 +89,14 @@ p>a{
     font-weight: bold;
 }
 table, th, td {
+
     border: 1px solid black;
     padding: 1px;
     text-align: center;
  }
  th{
     color: white;
-    background:  #060d35;
+    background:  #009688;
  }
 
  td{
@@ -119,5 +105,5 @@ table, th, td {
  h2,h3{
      color: white;
      text-align: center;
-     background-color: #060d35;
+     background-color: #009688;
  }

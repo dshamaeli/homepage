@@ -1,0 +1,161 @@
+﻿* {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background: #DADADA;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 2px;
+    margin: 2px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+a {
+    color: #990003;
+    padding: 5px;
+    margin: 5px;
+}
+
+p>a {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header, footer, navs {
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+header {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background: #023e3f;
+    width: auto;
+    height: 50px;
+    margin: 0px 0px 0px 0px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    color: white;
+    background: #023e3f;
+    width: auto;
+    height: 50px;
+    margin: 0px 0px 0px 0px;
+}
+
+nav {
+    font-size: 16px;
+    width: auto;
+    text-align: center;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    margin: 0px 0px 0px 0px;
+    background: #C0C0C0;
+}
+
+img {
+    float: left;
+    height: auto;
+    background: #060d35;
+    height: 300px;
+    width: 100%;
+}
+
+a>img {
+    width: 150px;
+    height: auto;
+}
+
+ul {
+    padding-left: 10px;
+}
+
+address>ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+table, th, td {
+    padding: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-collapse: collapse;
+    border: 2px solid cadetblue;
+    table-layout: fixed;
+    width: auto;
+}
+
+table.hobbies {
+    max-width: 100px;
+}
+
+th {
+    background: cadetblue;
+}
+
+tr, td {
+    text-align: center;
+    width: inherit;
+    word-break: normal;
+}
+
+.leftdiv, .rightdiv {
+    background: inherit;
+    margin: 0px 0px 0px 0px;
+}
+
+.leftdiv {
+    height: 100%;
+    width: 318px;
+    padding: 10px;
+    float: left;
+}
+
+.rightdiv {
+    float: right;
+    height: auto;
+    width: 100%;
+    max-width: 900px;
+    position: relative;
+    padding-left: 10px;
+}
+
+.contact {
+    border-top: solid;
+    margin-top: 50px;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+.career, .education, .work, .skills, .hobbies {
+    border-top: solid;
+    height: auto;
+    width: auto;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.info {
+    height: auto;
+    width: auto;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
