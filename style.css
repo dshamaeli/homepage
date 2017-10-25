@@ -11,8 +11,13 @@
     nav {
         height: 30px;
     }
-    .hobbies {
+    /* .hobbies>div{
         display: flex;
+        flex-direction: column;
+    } */
+    div.hob{
+        display: flex;
+        flex-direction: row-reverse;
     }
 }
 
@@ -155,8 +160,8 @@ table, th, td {
     margin-left: 20px;
 }
 
-table.hobTable {
-    max-width: 100px;
+table.game , table.books {
+    max-width: 300px;
     overflow-x: auto;
 }
 
@@ -206,10 +211,6 @@ tr, td {
     width: auto;
     padding-bottom: 10px;
 }
-
-/* .education {
-    text-align: center;
-} */
 
 .info {
     height: auto;
