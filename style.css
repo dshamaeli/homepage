@@ -8,7 +8,7 @@
         height: 30px;
     }
     .hobbies{
-        column-count: 2;
+        display: flex;
     }
 }
 
@@ -31,6 +31,12 @@ h2 {
     margin: 2px;
     padding-left: 0px;
     margin-left: 0px;
+}
+h3{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 2px 2px 0px;
+    margin: 10px 2px 2px 0px;
 }
 
 a {
@@ -96,6 +102,7 @@ a>img {
 
 ul {
     padding-left: 10px;
+    margin: 10;
 }
 
 address>ul {
@@ -128,17 +135,21 @@ tr, td {
     width: inherit;
     word-break: normal;
 }
+span>*{
+    margin: 20px;
+    
+}
 
 .leftdiv, .rightdiv {
     background: inherit;
-    margin: 0px 0px 0px 0px;
 }
 
 .leftdiv {
-    height: 100%;
+    height: auto;
     width: 318px;
     padding: 10px;
     float: left;
+    margin: 0px 0px 0px 0px;
 }
 
 .rightdiv {
@@ -148,11 +159,13 @@ tr, td {
     max-width: 900px;
     position: relative;
     padding-left: 10px;
+    margin: 10px 0px 20px 0px;
 }
 
 .contact {
     border-top: solid;
-    margin-top: 50px;
+    margin-top: 10px;
+    height: 200;
     padding: 20px;
     padding-top: 50px;
 }
@@ -162,8 +175,6 @@ tr, td {
     height: auto;
     width: auto;
     padding-bottom: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
 }
 
 .info {
