@@ -11,13 +11,9 @@
     nav {
         height: 30px;
     }
-    /* .hobbies>div{
+    div.hob {
         display: flex;
-        flex-direction: column;
-    } */
-    div.hob{
-        display: flex;
-        flex-direction: row-reverse;
+        flex-direction: row;
     }
 }
 
@@ -157,12 +153,13 @@ table, th, td {
 }
 
 .skills>table, .skills>tables>td {
-    margin-left: 20px;
+    margin: 20px 20px 0px 0px;
 }
 
-table.game , table.books {
+table.game, table.books {
     max-width: 300px;
     overflow-x: auto;
+    margin: auto;
 }
 
 th {
