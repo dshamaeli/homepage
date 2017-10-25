@@ -2,6 +2,9 @@
     nav {
         height: 70px;
     }
+    .rightdiv {
+        padding-left: 50px;
+    }
 }
 
 @media only screen and (min-width: 500px) {
@@ -21,15 +24,12 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 1em;
     background: #DADADA;
 }
 
-b{
-    font-size: 14px;
-}
 h2 {
-    font-size: 20px;
+    font-size: 1.2em;
     font-weight: bold;
     padding: 2px;
     margin: 2px;
@@ -38,23 +38,21 @@ h2 {
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 1.1em;
     font-weight: bold;
     padding: 10px 2px 2px 0px;
     margin: 10px 2px 2px 0px;
 }
 
-a { 
+a {
     color: #990003;
     padding: 5px;
     margin: 5px;
 }
 
 p {
-    font-size: 16px;
     line-height: 1.5;
     margin-bottom: 15px;
-    font-size: 14px;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -110,7 +108,7 @@ img {
     float: left;
     height: auto;
     background: #060d35;
-    height: 300px;
+    height: 200px;
     width: 100%;
 }
 
@@ -120,17 +118,23 @@ a>img {
 }
 
 ul {
-    padding-left: 20px;
+    padding-left: 10px;
     margin: 10;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
-.contact>ul{
+.contact>ul {
     padding-left: 0px;
-}
- address>ul {
     list-style: none;
+}
+
+address>ul {
+    list-style: inherit;
     text-indent: 60px;
-    font-size: 14px;
+    font-size: 0.9em;
     text-align: justify;
     text-justify: inter-word;
     padding-left: 0px;
@@ -147,13 +151,8 @@ table, th, td {
     page-break-inside: avoid;
 }
 
-.education>table {
-    width: 700px;
-}
-
-.skills>table , .skills>tables>td {
+.skills>table, .skills>tables>td {
     margin-left: 20px;
-    
 }
 
 table.hobTable {
@@ -177,7 +176,7 @@ tr, td {
 
 .leftdiv {
     height: auto;
-    width: 318px;
+    width: 300px;
     padding: 10px;
     float: left;
     margin: 0px 0px 0px 0px;
@@ -197,8 +196,8 @@ tr, td {
     border-top: solid;
     line-height: 3;
     margin-top: 10px;
-    height: 200;
-    padding: 300px 20px;
+    height: auto;
+    padding-top: 150px 20px 0px;
 }
 
 .career, .education, .work, .skills, .hobbies {
@@ -208,10 +207,9 @@ tr, td {
     padding-bottom: 10px;
 }
 
-.education {
+/* .education {
     text-align: center;
-    margin
-}
+} */
 
 .info {
     height: auto;
