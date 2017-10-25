@@ -3,11 +3,12 @@
         height: 70px;
     }
 }
+
 @media only screen and (min-width: 500px) {
-    nav{
+    nav {
         height: 30px;
     }
-    .hobbies{
+    .hobbies {
         display: flex;
     }
 }
@@ -20,29 +21,47 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     background: #DADADA;
 }
 
+b{
+    font-size: 14px;
+}
 h2 {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     padding: 2px;
     margin: 2px;
     padding-left: 0px;
     margin-left: 0px;
 }
-h3{
-    font-size: 14px;
+
+h3 {
+    font-size: 16px;
     font-weight: bold;
     padding: 10px 2px 2px 0px;
     margin: 10px 2px 2px 0px;
 }
 
-a {
+a { 
     color: #990003;
     padding: 5px;
     margin: 5px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+mark {
+    background-color: cadetblue;
+    color: black;
 }
 
 p>a {
@@ -96,24 +115,31 @@ img {
 }
 
 a>img {
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 
 ul {
-    padding-left: 10px;
+    padding-left: 20px;
     margin: 10;
 }
 
-address>ul {
+.contact>ul{
+    padding-left: 0px;
+}
+ address>ul {
     list-style: none;
+    text-indent: 60px;
+    font-size: 14px;
+    text-align: justify;
+    text-justify: inter-word;
     padding-left: 0px;
 }
 
 table, th, td {
     padding: 2px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
     border-collapse: collapse;
     border: 2px solid cadetblue;
     table-layout: fixed;
@@ -121,9 +147,18 @@ table, th, td {
     page-break-inside: avoid;
 }
 
+.education>table {
+    width: 700px;
+}
+
+.skills>table , .skills>tables>td {
+    margin-left: 20px;
+    
+}
+
 table.hobTable {
     max-width: 100px;
-    overflow-x:auto
+    overflow-x: auto;
 }
 
 th {
@@ -134,10 +169,6 @@ tr, td {
     text-align: center;
     width: inherit;
     word-break: normal;
-}
-span>*{
-    margin: 20px;
-    
 }
 
 .leftdiv, .rightdiv {
@@ -158,16 +189,16 @@ span>*{
     width: 100%;
     max-width: 900px;
     position: relative;
-    padding-left: 10px;
-    margin: 10px 0px 20px 0px;
+    padding-right: 30px;
+    margin: 10px 0px 50px 0px;
 }
 
 .contact {
     border-top: solid;
+    line-height: 3;
     margin-top: 10px;
     height: 200;
-    padding: 20px;
-    padding-top: 50px;
+    padding: 300px 20px;
 }
 
 .career, .education, .work, .skills, .hobbies {
@@ -175,6 +206,11 @@ span>*{
     height: auto;
     width: auto;
     padding-bottom: 10px;
+}
+
+.education {
+    text-align: center;
+    margin
 }
 
 .info {
